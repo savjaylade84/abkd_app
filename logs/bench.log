@@ -8,3 +8,27 @@
 2022-10-04 04:13:19,729 WARNING cd /mnt/c/Users/jayson/source/repos/frappe/abkd_app/apps/frappe && yarn install executed with exit code 1
 2022-10-04 04:13:20,757 ERROR There was a problem while creating abkd_app
 2022-10-04 04:13:42,854 WARNING /home/savjaylade84/.local/bin/bench init --frappe-branch version-13 abkd_app executed with exit code 1
+2022-10-04 04:15:51,395 INFO /home/savjaylade84/.local/bin/bench start
+2022-10-04 04:15:54,779 INFO /home/savjaylade84/.local/bin/bench schedule
+2022-10-04 04:15:54,807 INFO /home/savjaylade84/.local/bin/bench serve --port 8000
+2022-10-04 04:15:54,827 INFO /home/savjaylade84/.local/bin/bench worker --queue long
+2022-10-04 04:15:54,852 INFO /home/savjaylade84/.local/bin/bench watch
+2022-10-04 04:15:54,876 INFO /home/savjaylade84/.local/bin/bench worker --queue short
+2022-10-04 04:15:54,882 INFO /home/savjaylade84/.local/bin/bench worker --queue default
+2022-10-04 04:16:15,078 INFO /home/savjaylade84/.local/bin/bench --help
+2022-10-04 04:16:30,416 INFO /home/savjaylade84/.local/bin/bench set-redis-cache-host
+2022-10-04 04:16:30,432 WARNING /home/savjaylade84/.local/bin/bench set-redis-cache-host executed with exit code 2
+2022-10-04 04:16:47,978 INFO /home/savjaylade84/.local/bin/bench set-redis-cache-host 127.0.0.1
+2022-10-04 04:17:25,678 INFO /home/savjaylade84/.local/bin/bench set-redis-queue-host 127.0.0.1
+2022-10-04 04:18:03,086 INFO /home/savjaylade84/.local/bin/bench set-redis-socketio-host 127.0.0.1
+2022-10-04 04:18:18,247 INFO /home/savjaylade84/.local/bin/bench set-ssl-certificate
+2022-10-04 04:18:18,264 WARNING /home/savjaylade84/.local/bin/bench set-ssl-certificate executed with exit code 2
+2022-10-04 04:18:44,127 INFO /home/savjaylade84/.local/bin/bench set-nginx-port 5000
+2022-10-04 04:18:44,142 WARNING /home/savjaylade84/.local/bin/bench set-nginx-port 5000 executed with exit code 2
+2022-10-04 04:18:59,239 INFO /home/savjaylade84/.local/bin/bench set-nginx-port --help
+2022-10-04 04:46:49,279 INFO /home/savjaylade84/.local/bin/bench new-app abkd
+2022-10-04 04:46:49,289 LOG creating new app abkd
+2022-10-04 04:46:50,412 WARNING /home/savjaylade84/.local/bin/bench new-app abkd executed with exit code 1
+2022-10-04 04:47:06,206 INFO /home/savjaylade84/.local/bin/bench new-app abkd
+2022-10-04 04:47:06,215 LOG creating new app abkd
+2022-10-04 04:47:07,303 WARNING /home/savjaylade84/.local/bin/bench new-app abkd executed with exit code 1
