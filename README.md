@@ -26,9 +26,6 @@
 
 <br>
 <hr>
-<div align='center'>
-	<h4>My Accounts</h4>
-</div>
 <br>
 <div align="center">
 <a href='https://www.linkedin.com/in/john-jayson-de-leon-73532818b'>
