@@ -1,6 +1,6 @@
 ## My First Frappe <br>
 
-#### Unfortunately i fail to run this in smooth and do the task :(<br>
+#### Unfortunately i failed both in running the frappe smoothly and doing the task :(<br>
 
 ### My Journey in Frappe<br>
 
