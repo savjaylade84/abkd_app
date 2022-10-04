@@ -1,0 +1,6 @@
+[Unit]
+After=network.target
+Wants=abkd_app-frappe-default-worker@1.service abkd_app-frappe-short-worker@1.service abkd_app-frappe-long-worker@1.service
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description="abkd_app-redis-queue"
+PartOf=abkd_app-redis.target
+
+[Service]
+User=savjaylade84
+Group=savjaylade84
+Restart=always
+ExecStart=/usr/bin/redis-server /mnt/c/Users/jayson/source/repos/frappe/abkd_app/config/redis_queue.conf
+StandardOutput=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/redis-queue.log
+StandardError=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/redis-queue.error.log
+WorkingDirectory=/mnt/c/Users/jayson/source/repos/frappe/abkd_app/sites

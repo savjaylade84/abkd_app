@@ -1,0 +1,13 @@
+[Unit]
+After=abkd_app-frappe-web.service
+Description="abkd_app-node-socketio"
+PartOf=abkd_app-web.target
+
+[Service]
+User=savjaylade84
+Group=savjaylade84
+Restart=always
+ExecStart=/home/savjaylade84/.nvm/versions/node/v16.17.1/bin/node /mnt/c/Users/jayson/source/repos/frappe/abkd_app/apps/frappe/socketio.js
+StandardOutput=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/node-socketio.log
+StandardError=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/node-socketio.error.log
+WorkingDirectory=/mnt/c/Users/jayson/source/repos/frappe/abkd_app

@@ -1,0 +1,12 @@
+[Unit]
+Description="abkd_app-frappe-default-worker %I"
+PartOf=abkd_app-workers.target
+
+[Service]
+User=savjaylade84
+Group=savjaylade84
+Restart=always
+ExecStart=/home/savjaylade84/.local/bin/bench worker --queue default
+StandardOutput=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/worker.log
+StandardError=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/worker.error.log
+WorkingDirectory=/mnt/c/Users/jayson/source/repos/frappe/abkd_app

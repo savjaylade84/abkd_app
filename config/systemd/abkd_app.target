@@ -1,0 +1,6 @@
+[Unit]
+After=network.target
+Requires=abkd_app-web.target abkd_app-workers.target abkd_app-redis.target
+
+[Install]
+WantedBy=multi-user.target

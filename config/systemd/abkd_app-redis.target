@@ -1,0 +1,6 @@
+[Unit]
+After=network.target
+Wants=abkd_app-redis-cache.service abkd_app-redis-queue.service abkd_app-redis-socketio.service
+
+[Install]
+WantedBy=multi-user.target

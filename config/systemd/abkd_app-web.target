@@ -1,0 +1,6 @@
+[Unit]
+After=network.target
+Wants=abkd_app-frappe-web.service abkd_app-node-socketio.service
+
+[Install]
+WantedBy=multi-user.target

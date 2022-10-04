@@ -1,0 +1,12 @@
+[Unit]
+Description="abkd_app-frappe-web"
+PartOf=abkd_app-web.target
+
+[Service]
+User=savjaylade84
+Group=savjaylade84
+Restart=always
+ExecStart=/mnt/c/Users/jayson/source/repos/frappe/abkd_app/env/bin/gunicorn -b 127.0.0.1:8000 -w 17 -t 120 frappe.app:application --preload
+StandardOutput=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/web.log
+StandardError=file:/mnt/c/Users/jayson/source/repos/frappe/abkd_app/logs/web.error.log
+WorkingDirectory=/mnt/c/Users/jayson/source/repos/frappe/abkd_app/sites
