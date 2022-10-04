@@ -2,19 +2,19 @@
 
 #### Unfortunately i fail to run this in smooth.<br>
 
-#### My Journey in Frappe<br>
+### My Journey in Frappe<br>
 
 #### Day 1 <br>
 
 - First i research about the framework and watch some step by step
 
-### Day 2 - 3 <br>
+#### Day 2 - 3 <br>
 
 - I read the documentation of the framework for better insight.
 - I install all the dependecies needed in the framework.
 - I got incompatible version packages and tools<br> so tried to fix it but got an error again <br> so i troubleshoot it again.
 
-### Day 4 - 7 <br>
+#### Day 4 - 7 <br>
 
 - I tried to clean up some unused package but then the package installer(apt) goes haywire
 - I ask help from stockoverflow on how to fix my packages installer but no one answer :(
