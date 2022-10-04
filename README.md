@@ -6,24 +6,24 @@
 
 #### Day 1 <br>
 
-- First i research about the framework and watch some step by step
+- I research about the framework and watch some step by step tutorial
 
 #### Day 2 - 3 <br>
 
 - I read the documentation of the framework for better insight.
 - I install all the dependecies needed in the framework.
-- I got incompatible version packages and tools<br> so tried to fix it but got an error again <br> so i troubleshoot it again.
+- I got incompatible version packages and tools<br> so I tried to troubleshoot it.
 
 #### Day 4 - 7 <br>
 
-- I tried to clean up some unused package but then the package installer(apt) goes haywire
+- I tried to clean up some unused package but then the package installer(apt) goes haywire.
 - I ask help from stockoverflow on how to fix my packages installer but no one answer :(
-- In somehow I fix my package installer by reinstall it using debiab package installer
-- I successfully install the frappe package in virtual enviroment
-- I successfully install the node packages in vertual enviroment
-- I got an error again dependencies version is not compatible
-- I tried to fix it again but error upon error and now I struggle how to fix this :(
+- In somehow I fix my package installer by reinstall it using debian(dpkg) package installer.
+- I successfully install the frappe and node package in virtual enviroment.
+- I got an compatible error again on dependencies version.
+- I tried to fix it again but error upon error and now I struggle on how to fix this :(
 
+#### Thank You For Reading This And Have Nice Day :)
 <br>
 <hr>
 <br>
