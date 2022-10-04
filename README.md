@@ -28,6 +28,9 @@
 <hr>
 <br>
 <div align="center">
+<a href='https://github.com/savjaylade84'>
+	<img src='https://img.shields.io/badge/-Github-000?&logo=Github' height=30>
+</a>
 <a href='https://www.linkedin.com/in/john-jayson-de-leon-73532818b'>
 	<img src='https://img.shields.io/badge/-Linkedin-000?&logo=Linkedin' height=30>
 </a>
